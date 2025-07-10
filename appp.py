@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Alternate Supplier Tool")
-st.title("🔍 Alternate Supplier Suggestion Tool")
+st.set_page_config(page_title="Alternate Supplier")
+st.markdown("<h5 style='color: black;'>🔍 Alternate Supplier Suggestion</h5>", unsafe_allow_html=True)
 
 # Load supplier data
 df = pd.read_csv("demo_lead_time.csv")
